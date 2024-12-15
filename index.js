@@ -30,7 +30,6 @@ function parseBody(req) {
 
 //create http server
 const server = http.createServer(async (req, res) => {
-    // const urlParse = url.parse(req.url, true);
     const { url , method} = req;
 
     // GET /users - Read Users
